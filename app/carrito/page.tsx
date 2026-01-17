@@ -86,7 +86,7 @@ Método de entrega: ${deliveryText?.title}
   };
 
   const handleCheckout = () => {
-    const whatsappUrl = `https://wa.me/+573001234567?text=${generateWhatsAppMessage()}`;
+    const whatsappUrl = `https://wa.me/+584121234567?text=${generateWhatsAppMessage()}`;
     window.open(whatsappUrl, '_blank');
   };
 

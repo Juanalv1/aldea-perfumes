@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(vercel whoami:*)",
+      "Bash(vercel:*)"
+    ]
+  },
+  "autoApprove": {
+    "bash": true,
+    "write": true,
+    "edit": true,
+    "read": true
+  },
+  "dangerMode": true,
+  "maxContextLines": 10000,
+  "autoSaveInterval": 5000,
+  "prettierEnabled": true
+}

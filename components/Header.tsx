@@ -93,7 +93,7 @@ export default function Header() {
 
               {/* WhatsApp Button */}
               <a
-                href="https://wa.me/+573001234567?text=Hola%20Aldea%20de%20Perfumes!"
+                href="https://wa.me/+584121234567?text=Hola%20Aldea%20de%20Perfumes!"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hidden md:flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105"
@@ -150,7 +150,7 @@ export default function Header() {
               </Link>
             ))}
             <a
-              href="https://wa.me/+573001234567?text=Hola%20Aldea%20de%20Perfumes!"
+              href="https://wa.me/+584121234567?text=Hola%20Aldea%20de%20Perfumes!"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 bg-green-500 text-white px-4 py-3 rounded-lg text-lg font-medium mt-2"

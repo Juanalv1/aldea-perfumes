@@ -34,7 +34,7 @@ export default function Footer() {
                 <Instagram size={18} />
               </a>
               <a
-                href="https://wa.me/+573001234567"
+                href="https://wa.me/+584121234567"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white/60 hover:bg-green-500 hover:text-white transition-all duration-300"
@@ -42,7 +42,7 @@ export default function Footer() {
                 <MessageCircle size={18} />
               </a>
               <a
-                href="tel:+573001234567"
+                href="tel:+584121234567"
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white/60 hover:bg-blue-500 hover:text-white transition-all duration-300"
               >
                 <Phone size={18} />

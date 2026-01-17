@@ -16,7 +16,7 @@ export default function Contact() {
     const whatsappMessage = encodeURIComponent(
       `Hola Aldea de Perfumes!\n\nNombre: ${formData.name}\nEmail: ${formData.email}\n\nMensaje: ${formData.message}`
     );
-    window.open(`https://wa.me/+573001234567?text=${whatsappMessage}`, '_blank');
+    window.open(`https://wa.me/+584121234567?text=${whatsappMessage}`, '_blank');
   };
 
   return (
@@ -48,7 +48,7 @@ export default function Contact() {
             {/* Contact Buttons */}
             <div className="space-y-4 mb-8">
               <a
-                href="https://wa.me/+573001234567?text=Hola%20Aldea%20de%20Perfumes!"
+                href="https://wa.me/+584121234567?text=Hola%20Aldea%20de%20Perfumes!"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 bg-green-500/10 border border-green-500/30 rounded-xl p-4 hover:bg-green-500/20 transition-colors group"
@@ -58,7 +58,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-white font-semibold">WhatsApp</p>
-                  <p className="text-white/60 text-sm">+57 300 123 4567</p>
+                  <p className="text-white/60 text-sm">+58 412 123 4567</p>
                 </div>
               </a>
 
@@ -78,7 +78,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="tel:+573001234567"
+                href="tel:+584121234567"
                 className="flex items-center gap-4 bg-blue-500/10 border border-blue-500/30 rounded-xl p-4 hover:bg-blue-500/20 transition-colors group"
               >
                 <div className="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -86,7 +86,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-white font-semibold">Llamar</p>
-                  <p className="text-white/60 text-sm">+57 300 123 4567</p>
+                  <p className="text-white/60 text-sm">+58 412 123 4567</p>
                 </div>
               </a>
             </div>
